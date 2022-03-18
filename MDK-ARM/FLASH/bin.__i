@@ -1,0 +1,4 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I..\FlashAT -I..\Bins --C99 
+-I "D:\Program Files\Keil\ARM\RV31\INC" 
+-I "D:\Program Files\Keil\ARM\CMSIS\Include" 
+-DUSE_HAL_DRIVER -DSTM32F407xx -o "FLASH\bin.o" --omf_browse "FLASH\bin.crf" --depend "FLASH\bin.d" "..\Bins\Bin.c"

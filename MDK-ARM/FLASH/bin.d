@@ -1,0 +1,34 @@
+FLASH\bin.o: ..\Bins\Bin.c
+FLASH\bin.o: ..\Bins\Bin.h
+FLASH\bin.o: ..\FlashAT\at45db161d.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+FLASH\bin.o: ../Inc/stm32f4xx_hal_conf.h
+FLASH\bin.o: ../Inc/mxconstants.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+FLASH\bin.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+FLASH\bin.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+FLASH\bin.o: ../Drivers/CMSIS/Include/core_cm4.h
+FLASH\bin.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h
+FLASH\bin.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+FLASH\bin.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+FLASH\bin.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+FLASH\bin.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+FLASH\bin.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+FLASH\bin.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+FLASH\bin.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+FLASH\bin.o: ../Inc/spi.h
+FLASH\bin.o: ..\FlashAT\at45db161d_commands.h

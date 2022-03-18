@@ -1,0 +1,46 @@
+*** Creating Trace Output File 'FLASH\FLASH.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"flash\stm32f4xx_hal_msp.o"'
+### List of Objects: adding '"flash\main.o"'
+### List of Objects: adding '"flash\stm32f4xx_it.o"'
+### List of Objects: adding '"flash\gpio.o"'
+### List of Objects: adding '"flash\spi.o"'
+### List of Objects: adding '"flash\system_stm32f4xx.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_flash.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_spi.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_dma_ex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_rcc_ex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_flash_ramfunc.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_tim_ex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_rcc.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_gpio.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_rtc.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_dma.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_rtc_ex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_flash_ex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_cortex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_pwr_ex.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_tim.o"'
+### List of Objects: adding '"flash\stm32f4xx_hal_pwr.o"'
+### List of Objects: adding '"flash\startup_stm32f407xx.o"'
+### List of Objects: adding '"flash\at45db161d.o"'
+### List of Objects: adding '"flash\flash.o"'
+### List of Objects: adding '"flash\bin2.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "flash\stm32f4xx_hal_msp.o" "flash\main.o" "flash\stm32f4xx_it.o" "flash\gpio.o" "flash\spi.o" "flash\system_stm32f4xx.o" "flash\stm32f4xx_hal_flash.o" "flash\stm32f4xx_hal_spi.o" "flash\stm32f4xx_hal_dma_ex.o" "flash\stm32f4xx_hal_rcc_ex.o" "flash\stm32f4xx_hal_flash_ramfunc.o" "flash\stm32f4xx_hal_tim_ex.o" "flash\stm32f4xx_hal.o" "flash\stm32f4xx_hal_rcc.o" "flash\stm32f4xx_hal_gpio.o" "flash\stm32f4xx_hal_rtc.o" "flash\stm32f4xx_hal_dma.o" "flash\stm32f4xx_hal_rtc_ex.o" "flash\stm32f4xx_hal_flash_ex.o" "flash\stm32f4xx_hal_cortex.o" "flash\stm32f4xx_hal_pwr_ex.o" "flash\stm32f4xx_hal_tim.o" "flash\stm32f4xx_hal_pwr.o" "flash\startup_stm32f407xx.o" "flash\at45db161d.o" "flash\flash.o" "flash\bin2.o" 
+--library_type=microlib --strict --scatter "FLASH\FLASH.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "FLASH.map" -o FLASH\FLASH.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'FLASH\FLASH.axf'
+### ADS-LD Command File: 'FLASH\FLASH.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'FLASH\FLASH.lnp', Handle=0x0000018C
+### Writing '.lnp' file
+### ADS-LD Command file 'FLASH\FLASH.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
